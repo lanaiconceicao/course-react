@@ -21,7 +21,10 @@ module.exports = {
 
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    // publicPath -> where webpack-dev-server listens our development file
+    // create a file in memory in the path especific /static/
+    publicPath: '/static/'
   },
 
   plugins: [

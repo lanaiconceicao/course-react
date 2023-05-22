@@ -1,8 +1,11 @@
 import React from 'react'
+import Title from './title'
 
 const App = () => {
   return (
-    <h1>Aplication</h1>
+    <div>
+      <Title name='Maria' />
+    </div>
   )
 }
 
